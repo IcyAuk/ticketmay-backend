@@ -1,0 +1,6 @@
+@tickeymay.Api_HostAddress = http://localhost:5170
+
+GET {{tickeymay.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

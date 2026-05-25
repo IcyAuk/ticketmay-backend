@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TicketMay.Core\TicketMay.Core.csproj" />
+    <ProjectReference Include="..\TicketMay.Data\TicketMay.Data.csproj" />
   </ItemGroup>
 
 </Project>

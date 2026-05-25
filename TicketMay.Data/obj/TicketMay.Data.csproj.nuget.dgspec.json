@@ -4,14 +4,14 @@
     "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Data/TicketMay.Data.csproj": {}
   },
   "projects": {
-    "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Data/TicketMay.Data.csproj": {
+    "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Core/TicketMay.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Data/TicketMay.Data.csproj",
-        "projectName": "TicketMay.Data",
-        "projectPath": "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Data/TicketMay.Data.csproj",
+        "projectUniqueName": "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Core/TicketMay.Core.csproj",
+        "projectName": "TicketMay.Core",
+        "projectPath": "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Core/TicketMay.Core.csproj",
         "packagesPath": "/home/icyauk/.nuget/packages/",
-        "outputPath": "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Data/obj/",
+        "outputPath": "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/icyauk/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,69 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Data/TicketMay.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Data/TicketMay.Data.csproj",
+        "projectName": "TicketMay.Data",
+        "projectPath": "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Data/TicketMay.Data.csproj",
+        "packagesPath": "/home/icyauk/.nuget/packages/",
+        "outputPath": "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/icyauk/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Core/TicketMay.Core.csproj": {
+                "projectPath": "/home/icyauk/projects/ticketmay/ticketmay-backend/TicketMay.Core/TicketMay.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace TicketMay.Data.Repositories;
 
+//Direct access to database context operations
 public class TicketRepository : ITicketRepository
 {
     private readonly AppDbContext _context; //declares a field on the class

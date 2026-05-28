@@ -4,6 +4,7 @@ using TicketMay.Core.Entities;
 
 namespace TicketMay.Core.Services;
 
+//Business Layer - Allows added logic before returning repository operations
 public class TicketService
 {
     private readonly ITicketRepository _ticketRepository; //field

@@ -3,7 +3,7 @@ using TicketMay.Core.Entities;
 using TicketMay.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace TickeyMay.Data.Repositories;
+namespace TicketMay.Data.Repositories;
 
 public class TicketRepository : ITicketRepository
 {
